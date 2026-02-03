@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Blueprints Technology Limited</title>
+    <meta name="description" content="Get in touch with Blueprints Technology Limited to discuss your software development and technology requirements.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spectral:wght@600;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/design-system.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="site-header">
+        <nav class="container nav-container">
+            <div class="logo">
+            <a href="index.html" class="logo-link">
+                <img
+                src="assets/images/logo.png"
+                alt="Blueprints Technology Limited"
+                class="logo-image"
+                />
+                <span class="logo-wordmark">Blueprints Technology</span>
+            </a>
+            </div>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+            </button>
+
+            <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="services.html" class="nav-link">Services</a></li>
+            <li><a href="approach.html" class="nav-link">Our Approach</a></li>
+            <li><a href="contact.html" class="nav-link nav-link-cta">Contact</a></li>
+            </ul>
+        </nav>
+        </header>
+
+
+    <!-- Page Hero -->
+    <section class="page-hero">
+        <div class="container">
+            <h1 class="page-hero-title">Contact Us</h1>
+            <p class="page-hero-subtitle">Begin a conversation about your technology objectives and how we can support them</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-container">
+                
+                <!-- Contact Information -->
+                <div class="contact-info">
+                    <h3>Let's Discuss Your Requirements</h3>
+                    <p>We welcome inquiries from organizations seeking engineering-focused technology partnerships. Whether you're planning a new initiative, evaluating vendors, or exploring modernization opportunities, we're prepared to discuss how our capabilities align with your objectives.</p>
+                    
+                    <p>Our team typically responds within one business day to initial inquiries. For urgent matters, please indicate priority in your message subject line.</p>
+                    
+                    <ul class="contact-details">
+                        <li>
+                            <strong>Email</strong>
+                            <a href="mailto:info@blueprints.tech">info@blueprints.tech</a>
+                        </li>
+                        <li>
+                            <strong>Business Development</strong>
+                            <a href="mailto:partnerships@blueprints.tech">partnerships@blueprints.tech</a>
+                        </li>
+                        <li>
+                            <strong>Professional Network</strong>
+                            <a href="https://linkedin.com/company/blueprints-tech" target="_blank" rel="noopener">LinkedIn</a>
+                        </li>
+                    </ul>
+                    
+                    <div style="margin-top: 48px; padding: 24px; background: var(--background-light); border-left: 4px solid var(--accent-patina);">
+                        <h4 style="margin-bottom: 16px; color: var(--primary-navy);">What to Expect</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 12px; padding-left: 24px; position: relative; color: var(--text-secondary);">
+                                <span style="position: absolute; left: 0; color: var(--accent-patina);">✓</span>
+                                Initial response within one business day
+                            </li>
+                            <li style="margin-bottom: 12px; padding-left: 24px; position: relative; color: var(--text-secondary);">
+                                <span style="position: absolute; left: 0; color: var(--accent-patina);">✓</span>
+                                Discovery call to understand your requirements
+                            </li>
+                            <li style="margin-bottom: 12px; padding-left: 24px; position: relative; color: var(--text-secondary);">
+                                <span style="position: absolute; left: 0; color: var(--accent-patina);">✓</span>
+                                Preliminary capability assessment
+                            </li>
+                            <li style="margin-bottom: 0; padding-left: 24px; position: relative; color: var(--text-secondary);">
+                                <span style="position: absolute; left: 0; color: var(--accent-patina);">✓</span>
+                                Proposal or next steps recommendation
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div>
+                    <form class="contact-form" method="post" action="#">
+                        <h3 style="margin-bottom: 24px; color: var(--primary-navy);">Send Us a Message</h3>
+                        
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name *</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email Address *</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company" class="form-label">Organization</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject" class="form-label">Subject *</label>
+                            <input type="text" id="subject" name="subject" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message *</label>
+                            <textarea id="message" name="message" class="form-textarea" required placeholder="Please describe your requirements, timeline considerations, and any specific technology needs..."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+                        
+                        <div class="form-success">
+                            <p>✓ Thank you for your message. We will respond within one business day.</p>
+                        </div>
+                    </form>
+                    
+                    <p style="margin-top: 24px; font-size: 14px; color: var(--text-secondary); line-height: 1.6;">
+                        By submitting this form, you agree to our privacy policy regarding the processing of your contact information. We do not share client information with third parties.
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Additional Information Section -->
+    <section class="section" style="background-color: var(--background-light);">
+        <div class="container">
+            <h2 class="section-title">Engagement Process</h2>
+            <p class="section-subtitle">Understanding our typical engagement flow</p>
+            
+            <div class="content-grid" style="margin-top: 64px;">
+                <div class="content-text scroll-reveal">
+                    <h3>Initial Consultation</h3>
+                    <p>We begin with a structured discovery session to understand your business objectives, technical requirements, and organizational context. This typically involves:</p>
+                    <ul>
+                        <li>Requirements documentation review</li>
+                        <li>Technical architecture discussion</li>
+                        <li>Timeline and budget framework alignment</li>
+                        <li>Team and governance structure review</li>
+                    </ul>
+                    <p style="margin-top: 24px;">Initial consultations are conducted without obligation and serve as mutual evaluation opportunities.</p>
+                </div>
+                
+                <div class="content-text scroll-reveal">
+                    <h3>Proposal & Agreement</h3>
+                    <p>Following discovery, we provide a detailed proposal including:</p>
+                    <ul>
+                        <li>Scope of work and deliverables</li>
+                        <li>Technical approach and architecture</li>
+                        <li>Timeline and milestones</li>
+                        <li>Team composition and expertise</li>
+                        <li>Investment structure</li>
+                        <li>Success metrics and acceptance criteria</li>
+                    </ul>
+                    <p style="margin-top: 24px;">We structure agreements for transparency and mutual accountability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Office Locations / Additional Info -->
+    <section class="section">
+        <div class="container">
+            <h2 class="section-title">Additional Information</h2>
+            
+            <div class="content-grid" style="margin-top: 64px; text-align: center;">
+                <div class="scroll-reveal">
+                    <div style="width: 64px; height: 64px; margin: 0 auto 24px; color: var(--accent-patina);">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="12" y="16" width="40" height="36" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 24L52 24" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="32" cy="36" r="6" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Enterprise Clients</h3>
+                    <p style="color: var(--text-secondary);">We work with organizations requiring enterprise-scale solutions, compliance frameworks, and long-term technology partnerships.</p>
+                </div>
+                
+                <div class="scroll-reveal">
+                    <div style="width: 64px; height: 64px; margin: 0 auto 24px; color: var(--accent-patina);">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16 48L32 16L48 48" stroke="currentColor" stroke-width="2" stroke-linejoin="miter"/>
+                            <line x1="24" y1="38" x2="40" y2="38" stroke="currentColor" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Government & Institutions</h3>
+                    <p style="color: var(--text-secondary);">Our experience includes regulatory-compliant systems for government entities and financial institutions.</p>
+                </div>
+                
+                <div class="scroll-reveal">
+                    <div style="width: 64px; height: 64px; margin: 0 auto 24px; color: var(--accent-patina);">
+                        <svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <circle cx="32" cy="32" r="20" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="32" cy="32" r="12" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="32" cy="32" r="3" fill="currentColor"/>
+                        </svg>
+                    </div>
+                    <h3>Technology Investors</h3>
+                    <p style="color: var(--text-secondary);">We support investors conducting technical due diligence or seeking engineering partnerships for portfolio companies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4 class="footer-title">Blueprints Technology Limited</h4>
+                    <p class="footer-text">Engineering reliable software solutions for businesses and institutions.</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Navigation</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="approach.html">Our Approach</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html#software-dev">Software Development</a></li>
+                        <li><a href="services.html#web-mobile">Web & Mobile Apps</a></li>
+                        <li><a href="services.html#saas">SaaS Solutions</a></li>
+                        <li><a href="services.html#consulting">IT Consulting</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4 class="footer-title">Contact</h4>
+                    <ul class="footer-links">
+                        <li><a href="mailto:info@blueprints.tech">info@blueprints.tech</a></li>
+                        <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Blueprints Technology Limited. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
