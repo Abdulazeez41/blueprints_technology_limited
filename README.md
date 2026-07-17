@@ -1,4 +1,4 @@
-# Blueprints Technology Limited — Enterprise Website
+# Blueprints Technology Limited - Enterprise Website
 
 ![Project Status](https://img.shields.io/badge/status-production--ready-success)
 ![Version](https://img.shields.io/badge/version-1.0.0-blue)
@@ -12,7 +12,7 @@ A professional, enterprise-grade website for **Blueprints Technology Limited**, 
 
 **"Unignorable competence through intentional restraint"**
 
-Every design decision serves clarity, trust, and substance—not spectacle. The website embodies an engineering-first approach with visual restraint that signals operational maturity to decision-makers.
+Every design decision serves clarity, trust, and substance-not spectacle. The website embodies an engineering-first approach with visual restraint that signals operational maturity to decision-makers.
 
 ---
 
